@@ -1141,9 +1141,9 @@
 
     "sisteransi": ["sisteransi@1.0.5", "", {}, "sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg=="],
 
-    "slidev-addons-russell": ["slidev-addons-russell@github:russell-informatica/slidev-addons#278f9b7", {}, "russell-informatica-slidev-addons-278f9b7", "sha512-b4o+aK5L5Ti7Fe1GWXG3QSJ9a693nxZ/nEcFJX+SasDGAZo7K1aaraDE7qdqgF8o425azpDiUwa1TfQSg3jAsg=="],
+    "slidev-addons-russell": ["slidev-addons-russell@github:russell-informatica/slidev-addons#abf44e8", {}, "russell-informatica-slidev-addons-abf44e8", "sha512-tM8IHyDqkWkprQnSQbM2EAzR8S0aIbFkQtAQFNpzoVbo9vgtACUGlDhep7tOtpbKZ+RqHHh4ch0vNaKMcej/dg=="],
 
-    "slidev-theme-russell": ["slidev-theme-russell@github:russell-informatica/slidev-theme#68e87bd", { "dependencies": { "@fontsource/fira-code": "^5.3.0", "@fontsource/ia-writer-quattro": "^5.3.0" } }, "russell-informatica-slidev-theme-68e87bd", "sha512-2z3kFmYzcH3deZORE1/x7Qjrce+WahlxqVeoQsohdITfV04/l8dJbeSH8b9AILot0bNnFYPASgDm2tWIV+M3hQ=="],
+    "slidev-theme-russell": ["slidev-theme-russell@github:russell-informatica/slidev-theme#5a00453", { "dependencies": { "@fontsource/fira-code": "^5.3.0", "@fontsource/ia-writer-quattro": "^5.3.0" } }, "russell-informatica-slidev-theme-5a00453", "sha512-CmeoJ3/xmmmEJ7ZnD02dF/akPiJv3GXu1mfNXIt7MW+Tv29Br8zJTRtYlltv6xRVjys8uZHX3Tw0gKYReZ67ag=="],
 
     "source-map-js": ["source-map-js@1.2.2", "", {}, "sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw=="],
 
