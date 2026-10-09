@@ -48,24 +48,6 @@ jobs:
               --out "$PWD/dist/$deck"
           done
 
-      - name: Generate landing page
-        run: |
-          entries="$(find src -name '0-main.md' | sort)"
-          {
-            printf '%s\n' \
-              '<!doctype html>' \
-              '<html lang="en"><head><meta charset="utf-8">' \
-              '<meta name="viewport" content="width=device-width, initial-scale=1">' \
-              '<title>Presentations</title></head><body>' \
-              '<h1>Presentations</h1>' \
-              '<ul>'
-            for entry in $entries; do
-              deck="$(basename "$(dirname "$entry")")"
-              printf '  <li><a href="./%s/">%s</a></li>\n' "$deck" "$deck"
-            done
-            printf '%s\n' '</ul></body></html>'
-          } > dist/index.html
-
       - name: Setup Pages
         uses: actions/configure-pages@v6
         with:
