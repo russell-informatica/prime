@@ -10,6 +10,7 @@ info: |
 drawings:
   persist: false
 comark: true
+presenter: dev
 src: ./1-regole.md
 ---
 
