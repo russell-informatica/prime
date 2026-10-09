@@ -71,6 +71,66 @@ x = 13
 
 ---
 
+# Una variabile speciale: la lista
+
+Una **lista** è una **variabile** che contiene **più valori**, tenuti **in ordine**.
+
+```python
+voti = [7, 4, 9]   # tre elementi
+vuota = []         # nessun elemento
+```
+
+- le **parentesi quadre** `[ ]` racchiudono i valori;
+- i valori sono separati da una **virgola**;
+- l'**ordine** conta: `[7, 4, 9]` non è la stessa lista di `[9, 4, 7]`;
+- una lista senza elementi si scrive `[ ]`.
+
+> **N.B.** Una variabile normale contiene **un solo** valore; una lista ne contiene **molti**, tutti dentro un unico nome.
+
+---
+
+# Accedere agli elementi
+
+Ogni elemento ha una **posizione** (detta **indice**), che parte da **0**.
+
+```python
+voti = [7, 4, 9]
+print(voti[0])     # 7
+print(voti[1])     # 4
+print(voti[2])     # 9
+```
+
+- si accede con **nome + indice tra quadre**: `voti[0]`;
+- il **primo** elemento è `voti[0]`, l'**ultimo** è `voti[len(voti) - 1]`;
+- `len(voti)` restituisce **quanti** elementi ci sono (`3`);
+- un elemento si può anche **cambiare**: `voti[1] = 5`.
+
+> **N.B.** Le posizioni valide vanno da `0` a `len(voti) - 1`: chiedere `voti[3]` causa un `IndexError`.
+
+---
+class: table-sm
+---
+
+# I metodi principali delle liste
+
+| Metodo               | Cosa fa                                |
+| -------------------- | -------------------------------------- |
+| `lista.append(x)`    | aggiunge `x` **in fondo**              |
+| `lista.insert(i, x)` | inserisce `x` nella posizione `i`      |
+| `lista.remove(x)`    | elimina la **prima** occorrenza di `x` |
+| `lista.pop(i)`       | elimina l'elemento in posizione `i`    |
+| `lista.sort()`       | ordina dal più piccolo al più grande   |
+| `lista.reverse()`    | inverte l'ordine degli elementi        |
+
+```python
+voti = [7, 4, 9]
+voti.append(6)     # [7, 4, 9, 6]
+```
+
+> **N.B.** `len(voti)` è una **funzione**; `voti.append(6)` è un **metodo** (col **punto**).
+
+---
+
 # `print()`: la voce del programma
 
 `print()` **mostra a schermo** il valore che le passi tra parentesi.
