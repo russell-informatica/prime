@@ -43,9 +43,11 @@ jobs:
             deck="$(basename "$(dirname "$entry")")"
             echo "Building $entry -> /$repo/$deck/"
             nr build "$entry" \
+              --without-notes \
               --base "/$repo/$deck/" \
               --router-mode hash \
               --out "$PWD/dist/$deck"
+
           done
 
       - name: Setup Pages
