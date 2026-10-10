@@ -3,24 +3,12 @@ layout: cover
 ---
 
 # Esercizi Python
-per iniziare
+I primi passi in python
 
 <div class="pt-12">
   <span class="px-2 py-1 rounded bg-primary text-[#141418]">Informatica 2c</span>
 </div>
 
----
-
-# Regole di sintassi
-
-Negli esercizi valgono queste regole:
-
-- Niente "zucchero sintattico": scrivi `i = i + 1`, non `i += 1`.
-- Niente funzioni o metodi integrati avanzati: no `sum()`, `max()`, `min()`, `.count()`, `.index()`, né l'operatore `in`.
-- I cicli solo con `for i in range(...)` oppure con `while`.
-- Accesso agli elementi della lista **solo tramite indice**: `lista[i]`.
-
-> **N.B.** Lo scopo è allenarsi a costruire la logica passo passo, non a trovare la scorciatoia.
 
 ---
 layout: two-cols-header
@@ -164,6 +152,28 @@ while i < n:
   </tbody>
 </table>
 
+<table>
+  <thead>
+    <tr>
+      <th>output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <v-switch at="1" class="font-mono">
+          <template #0-3>—</template>
+          <template #3-6>0</template>
+          <template #6-9>0<br>1</template>
+          <template #9-12>0<br>1<br>2</template>
+          <template #12-15>0<br>1<br>2<br>3</template>
+          <template #15-18>0<br>1<br>2<br>3<br>4</template>
+        </v-switch>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ::bottom::
 
 <ClicksSlider class="mt-2" />
@@ -226,6 +236,28 @@ while i >= 0:
           <template #10-13>i = 1</template>
           <template #13-16>i = 0</template>
           <template #16-18>i = -1</template>
+        </v-switch>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <v-switch at="1" class="font-mono">
+          <template #0-3>—</template>
+          <template #3-6>4</template>
+          <template #6-9>4<br>3</template>
+          <template #9-12>4<br>3<br>2</template>
+          <template #12-15>4<br>3<br>2<br>1</template>
+          <template #15-18>4<br>3<br>2<br>1<br>0</template>
         </v-switch>
       </td>
     </tr>
@@ -312,6 +344,28 @@ while i < len(lista):
   </tbody>
 </table>
 
+<table>
+  <thead>
+    <tr>
+      <th>output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <v-switch at="1" class="font-mono">
+          <template #0-3>—</template>
+          <template #3-6>2</template>
+          <template #6-9>2<br>4</template>
+          <template #9-12>2<br>4<br>6</template>
+          <template #12-15>2<br>4<br>6<br>8</template>
+          <template #15-18>2<br>4<br>6<br>8<br>10</template>
+        </v-switch>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ::bottom::
 
 <ClicksSlider class="mt-2" />
@@ -386,6 +440,28 @@ while i >= 0:
           <template #10-13>lista[i] = 2</template>
           <template #13-16>lista[i] = 1</template>
           <template #16-18>lista[i] = —</template>
+        </v-switch>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <v-switch at="1" class="font-mono">
+          <template #0-3>—</template>
+          <template #3-6>5</template>
+          <template #6-9>5<br>4</template>
+          <template #9-12>5<br>4<br>3</template>
+          <template #12-15>5<br>4<br>3<br>2</template>
+          <template #15-18>5<br>4<br>3<br>2<br>1</template>
         </v-switch>
       </td>
     </tr>
@@ -476,6 +552,24 @@ else:
   </tbody>
 </table>
 
+<table>
+  <thead>
+    <tr>
+      <th>output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <v-switch at="1" class="font-mono">
+          <template #0-19>—</template>
+          <template #19-20>15 è contenuto nella lista</template>
+        </v-switch>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ::bottom::
 
 <ClicksSlider class="mt-2" />
@@ -559,6 +653,24 @@ print(conta)
   </tbody>
 </table>
 
+<table>
+  <thead>
+    <tr>
+      <th>output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <v-switch at="1" class="font-mono">
+          <template #0-26>—</template>
+          <template #26-27>3</template>
+        </v-switch>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ::bottom::
 
 <ClicksSlider class="mt-2" />
@@ -633,6 +745,24 @@ print(massimo)
           <template #1-8>massimo = 3</template>
           <template #8-15>massimo = 7</template>
           <template #15-22>massimo = 9</template>
+        </v-switch>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <v-switch at="1" class="font-mono">
+          <template #0-21>—</template>
+          <template #21-22>9</template>
         </v-switch>
       </td>
     </tr>
@@ -720,6 +850,24 @@ else:
   </tbody>
 </table>
 
+<table>
+  <thead>
+    <tr>
+      <th>output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <v-switch at="1" class="font-mono">
+          <template #0-14>—</template>
+          <template #14-15>la lista è crescente</template>
+        </v-switch>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ::bottom::
 
 <ClicksSlider class="mt-2" />
@@ -796,6 +944,24 @@ print(conta)
           <template #8-15>conta = 1</template>
           <template #15-22>conta = 2</template>
           <template #22-26>conta = 3</template>
+        </v-switch>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <v-switch at="1" class="font-mono">
+          <template #0-25>—</template>
+          <template #25-26>3</template>
         </v-switch>
       </td>
     </tr>
