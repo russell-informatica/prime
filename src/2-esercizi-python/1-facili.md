@@ -114,7 +114,7 @@ class: table-sm
 
 # Esercizio 3 — Soluzione
 
-Fai la **traccia**: esegui una riga alla volta con `←` `→` o con la barra qui sotto.
+
 
 ::left::
 
@@ -204,7 +204,7 @@ class: table-sm
 
 # Esercizio 4 — Soluzione
 
-Fai la **traccia**: esegui una riga alla volta con `←` `→` o con la barra qui sotto.
+
 
 ::left::
 
@@ -294,7 +294,7 @@ class: table-sm
 
 # Esercizio 5 — Soluzione
 
-Fai la **traccia**: esegui una riga alla volta con `←` `→` o con la barra qui sotto.
+
 
 ::left::
 
@@ -306,6 +306,12 @@ while i < len(lista):
     print(lista[i])
     i = i + 1
 ```
+
+<ListTracker
+  :items="[2, 4, 6, 8, 10]"
+  :trackers="{ i: { 1: 0, 4: 1, 7: 2, 10: 3, 13: 4, 16: 5 } }"
+  highlight
+/>
 
 ::right::
 
@@ -396,7 +402,7 @@ class: table-sm
 
 # Esercizio 6 — Soluzione
 
-Fai la **traccia**: esegui una riga alla volta con `←` `→` o con la barra qui sotto.
+
 
 ::left::
 
@@ -408,6 +414,12 @@ while i >= 0:
     print(lista[i])
     i = i - 1
 ```
+
+<ListTracker
+  :items="[1, 2, 3, 4, 5]"
+  :trackers="{ i: { 1: 4, 4: 3, 7: 2, 10: 1, 13: 0, 16: -1 } }"
+  highlight
+/>
 
 ::right::
 
@@ -499,7 +511,7 @@ class: table-sm
 
 # Esercizio 7 — Soluzione
 
-Fai la **traccia**: esegui una riga alla volta con `←` `→` o con la barra qui sotto.
+
 
 ::left::
 
@@ -570,6 +582,12 @@ else:
   </tbody>
 </table>
 
+<ListTracker
+  :items="[4, 8, 15, 16]"
+  :trackers="{ i: { 3: 0, 6: 1, 9: 2, 13: 3, 16: 4 } }"
+  highlight
+/>
+
 ::bottom::
 
 <ClicksSlider class="mt-2" />
@@ -600,7 +618,7 @@ class: table-sm
 
 # Esercizio 8 — Soluzione
 
-Fai la **traccia**: esegui una riga alla volta con `←` `→` o con la barra qui sotto.
+
 
 ::left::
 
@@ -671,6 +689,12 @@ print(conta)
   </tbody>
 </table>
 
+<ListTracker
+  :items="[5, 10, 15, 10, 20, 10]"
+  :trackers="{ i: { 3: 0, 6: 1, 10: 2, 13: 3, 17: 4, 20: 5, 24: 6 } }"
+  highlight
+/>
+
 ::bottom::
 
 <ClicksSlider class="mt-2" />
@@ -701,7 +725,7 @@ class: table-sm
 
 # Esercizio 9 — Soluzione
 
-Fai la **traccia**: esegui una riga alla volta con `←` `→` o con la barra qui sotto.
+
 
 ::left::
 
@@ -769,6 +793,12 @@ print(massimo)
   </tbody>
 </table>
 
+<ListTracker
+  :items="[3, 7, 2, 9, 5]"
+  :trackers="{ i: { 2: 0, 5: 1, 9: 2, 12: 3, 16: 4, 19: 5 } }"
+  highlight
+/>
+
 ::bottom::
 
 <ClicksSlider class="mt-2" />
@@ -800,7 +830,7 @@ class: table-sm
 
 # Esercizio 10 — Soluzione
 
-Fai la **traccia**: esegui una riga alla volta con `←` `→` o con la barra qui sotto.
+
 
 ::left::
 
@@ -868,6 +898,12 @@ else:
   </tbody>
 </table>
 
+<ListTracker
+  :items="[1, 3, 5, 7]"
+  :trackers="{ i: { 2: 1, 5: 2, 8: 3, 11: 4 } }"
+  highlight
+/>
+
 ::bottom::
 
 <ClicksSlider class="mt-2" />
@@ -898,7 +934,7 @@ class: table-sm
 
 # Esercizio 11 — Soluzione
 
-Fai la **traccia**: esegui una riga alla volta con `←` `→` o con la barra qui sotto.
+
 
 ::left::
 
@@ -967,6 +1003,12 @@ print(conta)
     </tr>
   </tbody>
 </table>
+
+<ListTracker
+  :items="[1, 2, 3, 4, 5, 6]"
+  :trackers="{ i: { 2: 0, 5: 1, 9: 2, 12: 3, 16: 4, 19: 5, 23: 6 } }"
+  highlight
+/>
 
 ::bottom::
 
