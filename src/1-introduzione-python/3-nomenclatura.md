@@ -7,7 +7,7 @@ layout: cover
 ### Imparare i nomi delle cose per capirsi
 
 <div class="pt-12">
-  <span class="px-2 py-1 rounded bg-primary text-[#141418]">Informatica - Liceo Russell</span>
+  <span class="px-2 py-1 rounded bg-primary text-[#141418]">Marini Mattia - Informatica</span>
 </div>
 
 ---
